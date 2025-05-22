@@ -18,6 +18,7 @@ struct per{
 list<per> u;
 
 void caricadig1();
+void stampa_lista();
 int findm2(string q);
 int findco3(const string& key);
 void findcod4(string cod,per kia[101]);
@@ -30,6 +31,7 @@ int main() {
     per audi[101];
 
     caricadig1();
+    stampa_lista();
 
     cout << "Dimmi la matricola da cercare: ";
     cin >> f;
