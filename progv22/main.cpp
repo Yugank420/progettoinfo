@@ -89,7 +89,6 @@ void caricadig1() {
     file.close();
 }
 void stampa_lista() {
-    // Attraversa la lista e stampa i dettagli di ogni elemento
     for (const per& m : u) {
         cout << "Codice Corso: " << m.codicecorso << endl;
         cout << "Descrizione Corso: " << m.descrizionecorso << endl;
